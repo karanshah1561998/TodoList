@@ -4,7 +4,7 @@ A simple, responsive, and accessible Todo List application built with React and 
 
 ## Live Demo
 
-You can view the live app on Netlify: [Todo List](https://todolist-ks.netlify.app/)
+You can view the live app on Netlify: [Todo List](https://todolistks.netlify.app/)
 
 ## Features
 
