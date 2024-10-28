@@ -73,7 +73,7 @@ const EditModal = ({ currentText, onSave, onClose }) => {
                     <button
                         ref={cancelButtonRef}
                         onClick={onClose}
-                        className="px-4 py-2 border-2 border-black rounded-md mr-2 text-black hover:bg-blue-100"
+                        className="px-4 py-2 border-2 border-blue-500 rounded-md mr-2 text-black focus:shadow-[0_0_0_1px_rgba(59,130,246,1),_0_0_0_3px_rgba(59,130,246,0.3)] hover:shadow-[0_0_0_1px_rgba(59,130,246,1),_0_0_0_3px_rgba(59,130,246,0.3)] focus:outline-none"
                         aria-label="Cancel edit"
                     >
                         Cancel
@@ -81,7 +81,7 @@ const EditModal = ({ currentText, onSave, onClose }) => {
                     <button
                         ref={saveButtonRef}
                         onClick={handleSave}
-                        className="px-4 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-800"
+                        className="px-4 py-2 bg-blue-600 rounded-md text-white hover:bg-blue-800 focus:shadow-[0_0_0_1px_rgba(59,130,246,1),_0_0_0_3px_rgba(59,130,246,0.3)] hover:shadow-[0_0_0_1px_rgba(59,130,246,1),_0_0_0_3px_rgba(59,130,246,0.3)] focus:outline-none"
                         aria-label="Save changes"
                     >
                         Save

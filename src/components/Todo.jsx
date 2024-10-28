@@ -58,11 +58,11 @@ const Todo = () => {
                     onKeyDown={handleKeyPress}
                     placeholder='Add a Task Here'
                     aria-label="Add a Task Here"
-                    className='bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-500'
+                    className="bg-transparent border-0 outline-none flex-1 h-14 pl-6 pr-2 placeholder:text-slate-500 rounded-xl focus:outline-none "
                 />
                 <button
                     onClick={add}
-                    className='border-none rounded-xl bg-orange-600 w-24 h-14 text-white text-lg font-medium cursor-pointer'
+                    className='border-none rounded-xl bg-orange-600 w-24 h-14 text-white text-lg font-medium cursor-pointer focus:outline-none  hover:shadow-[0_0_0_3px_rgba(234,88,12,1),_0_0_0_6px_rgba(234,88,12,0.3)] focus:shadow-[0_0_0_3px_rgba(234,88,12,1),_0_0_0_6px_rgba(234,88,12,0.3)]'
                     aria-label="Add Task"
                 >
                     Add
