@@ -62,7 +62,7 @@ const Todo = () => {
                 />
                 <button
                     onClick={add}
-                    className='border-none rounded-xl bg-orange-600 w-24 h-14 text-white text-lg font-medium cursor-pointer focus:outline-none  hover:shadow-[0_0_0_3px_rgba(234,88,12,1),_0_0_0_6px_rgba(234,88,12,0.3)] focus:shadow-[0_0_0_3px_rgba(234,88,12,1),_0_0_0_6px_rgba(234,88,12,0.3)]'
+                    className='border-none rounded-xl bg-orange-600 w-24 h-14 text-white text-lg font-medium cursor-pointer focus:outline-none  hover:shadow-[0_0_0_1px_rgba(234,88,12,1),_0_0_0_3px_rgba(0,0,0,0.3)] focus:shadow-[0_0_0_1px_rgba(234,88,12,1),_0_0_0_3px_rgba(0,0,0,0.3)]'
                     aria-label="Add Task"
                 >
                     Add
