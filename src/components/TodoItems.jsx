@@ -52,16 +52,17 @@ const TodoItems = ({ text, id, isComplete, deleteTodo, toggle, saveEdit }) => {
                 {text}
             </p>
 
-            <div
-                role="button"
-                tabIndex={0}
-                onClick={handleEditClick}
-                onKeyDown={(e) => handleKeyDown(e, handleEditClick)}
-                aria-label="Edit task"
-                className={`w-4 cursor-pointer ${isComplete ? "opacity-0" : "hover:border border-blue-600"}`}
-            >
-                <img src={edit_icon_1} alt="Edit task" />
-            </div>
+            {!isComplete && <div
+                    role="button"
+                    tabIndex={0}
+                    onClick={handleEditClick}
+                    onKeyDown={(e) => handleKeyDown(e, handleEditClick)}
+                    aria-label="Edit task"
+                    className={`w-4 cursor-pointer ${isComplete ? "opacity-0" : "hover:border border-blue-600"}`}
+                >
+                    <img src={edit_icon_1} alt="Edit task" />
+                </div>
+            }
 
             <div
                 role="button"
